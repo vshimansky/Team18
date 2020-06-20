@@ -1,0 +1,33 @@
+﻿@model VirusAlertAPI.Models.RegistryModel
+
+<div class="header">
+    @Html.ActionLink("О гриппе", "Index", "Home", new { area = "", controller = "Home" }, null)
+    @Html.ActionLink("Кто подвергается осложнению", "Index", "Home", new { area = "", controller = "Home" }, null)
+    @Html.ActionLink("Предотвратить грипп", "Index", "Home", new { area = "", controller = "Home" }, null)
+</div>
+
+<div class="loginpage">
+    <div class="loginH1">Регистрация</div>
+    <div>
+        @Html.TextBoxFor(p => p.Name, new { @class = "logininput", @placeholder = "ФИО *" })
+
+    </div>
+    <div>
+        <input type="text" class="logininput" id="oms" value="@Model.Oms" placeholder="Номер полиса ОМС" />
+    </div>
+    <div>
+        <input type="text" class="logininput" id="email" value="@Model.Email" placeholder="Адрес электронной почты * " />
+    </div>
+    <div>
+        <div>Если у вас пока нет электронной почты, нажмите, чтобы создать ее не уходя с сайта</div>
+        @Html.ActionLink("Создать почту", "Index", "Главная", new { area = "" }, new { @class = "linkbutton" })
+    </div>
+    <div>
+        <input type="password" class="logininput" id="pass" value="@Model.Password" placeholder="Пароль" />
+    </div>
+    <div>
+        <input type="password" class="logininput" id="pass" value="@Model.Password2" placeholder="Продублируйте пароль" />
+    </div>
+    @Html.ActionLink("Зарегистрироваться", "DoRegistration", "Главная", new { name = Name, oms ="12312", email = @Model.Email, pass = @Model.Password, pass2 = @Model.Password2 }, new { @class = "linkbutton" })
+    @Html.ActionLink("Отмена", "Index", "Главная", new { area = "" }, new { @class = "linkbutton" })
+</div>

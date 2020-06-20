@@ -1,0 +1,234 @@
+﻿body {
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.pagebox {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(gui/footer.png);
+    background-size: cover;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #06876D;
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 34px;
+    height: 192px;
+}
+
+.inipage {
+    height: 1026px;
+    background-image: url(gui/back1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column; 
+    padding-left: 120px;
+    padding-bottom: 64px;
+}
+
+.loginpage {
+    height: 1026px;
+    background-image: url(gui/back2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 120px;
+    padding-bottom: 64px;
+}
+
+
+.linkbutton {
+    display: block;
+    width: 400px;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #06876D;
+    text-align: center;
+    background: #FFFFFF;
+    border: solid 4px #06876D;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.linkbutton:hover {
+    color: #FFFFFF;
+    background: #06876D;
+}
+
+.social1 {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.sociallink {
+    width: 50px;
+    height: 50px;
+}
+
+.header {
+    display:flex;
+    align-items:center;
+    height: 71px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #3E4B60;
+}
+
+.title1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #3E4B60;
+}
+
+.newtext {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #125B9E;
+}
+
+.txt1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #3E4B60;
+}
+
+.textbox {
+    background: #FFFFFF;
+    border: 2px solid #06876D;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #3E4B60;
+    width: 570px;
+    max-width: 570px;
+    height: 55px;
+}
+
+.loginH1 {
+    font-family: Judson;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #06876D;
+    margin-bottom: 64px;
+}
+
+.logininput {
+    width: 780px;
+    max-width: 780px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 2px solid #06876D;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 64px;
+    padding: 4px;
+}
+
+.head2 {
+    height: 210px;
+    background-image: url(gui/back3.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 120px;
+    padding-bottom: 64px;
+    font-family: Judson;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18.5873px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #06876D;
+}

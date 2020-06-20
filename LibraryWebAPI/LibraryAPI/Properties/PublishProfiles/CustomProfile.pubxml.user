@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUGn156NiOUu73fPFcH9w6AAAAAACAAAAAAAQZgAAAAEAACAAAAAQsY3XxvmfGDw0Mf9R9d8btToF5b0ZAOz5K/i0cVMA8gAAAAAOgAAAAAIAACAAAAAVJ3VG3/YXXuVnK3l+DZgaF8oQd0/cMKO2CToDaAYd7CAAAACpeb7KPcWHN5tsQtvbK7Lvp3Fm2G5ooiWW/mn18aLUDUAAAACDTJIvGKrJY4iAbIGApJNpTvRd8snh62l4kcgpSA0O/a5iOjJV5m9WeoawtueIHWM6SsiYbfcbfZZsIEe+8S8m</EncryptedPassword>
+    <_PublishTargetUrl>ftp://u502618.ftp.masterhost.ru/xn--80abaqnbpf2a4b.xn--18-6kcat8aojg.xn--p1ai/www</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>06/20/2020 08:14:08</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/20/2020 08:14:08</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>09/24/2019 19:57:52</publishTime>
+    </File>
+    <File Include="LibraryAPI.deps.json">
+      <publishTime>06/20/2020 11:46:37</publishTime>
+    </File>
+    <File Include="LibraryAPI.dll">
+      <publishTime>06/20/2020 11:42:03</publishTime>
+    </File>
+    <File Include="LibraryAPI.pdb">
+      <publishTime>06/20/2020 11:42:03</publishTime>
+    </File>
+    <File Include="LibraryAPI.runtimeconfig.json">
+      <publishTime>06/20/2020 11:30:52</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>01/21/2020 01:18:53</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>01/21/2020 01:18:55</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>09/24/2019 19:57:20</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>09/24/2019 19:57:24</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>09/24/2019 19:57:28</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>09/24/2019 19:57:26</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>09/24/2019 19:57:22</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>09/24/2019 19:57:20</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>09/24/2019 19:57:30</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>01/21/2020 01:18:45</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>01/21/2020 01:18:47</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>01/21/2020 01:18:47</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>01/21/2020 01:18:47</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>01/21/2020 01:18:47</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>01/21/2020 01:18:47</publishTime>
+    </File>
+    <File Include="UniversalAcceptanceLibrary.dll">
+      <publishTime>06/20/2020 11:30:52</publishTime>
+    </File>
+    <File Include="UniversalAcceptanceLibrary.pdb">
+      <publishTime>06/20/2020 11:30:52</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/20/2020 11:46:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

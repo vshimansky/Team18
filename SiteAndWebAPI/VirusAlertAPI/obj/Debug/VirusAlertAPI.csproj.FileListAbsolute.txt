@@ -1,0 +1,231 @@
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\VirusAlertAPI.dll.config
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\VirusAlertAPI.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\VirusAlertAPI.pdb
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\csc.exe
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\csc.exe.config
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\csc.rsp
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\csi.exe
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\csi.exe.config
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\csi.rsp
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.AppContext.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Console.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.IO.Compression.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Security.Claims.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.ValueTuple.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\vbc.exe
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\vbc.exe.config
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\vbc.rsp
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\VBCSCompiler.exe
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Antlr3.Runtime.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\EntityFramework.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\EntityFramework.SqlServer.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.Google.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Newtonsoft.Json.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Owin.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Net.Http.Formatting.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Helpers.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Http.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Http.Owin.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Http.WebHost.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Mvc.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Optimization.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Razor.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.WebPages.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.WebPages.Razor.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\WebGrease.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Newtonsoft.Json.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Net.Http.Formatting.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Helpers.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Http.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Http.WebHost.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Mvc.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Optimization.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Razor.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.WebPages.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.WebPages.Razor.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Antlr3.Runtime.pdb
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\EntityFramework.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\EntityFramework.SqlServer.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.Google.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\System.Web.Http.Owin.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\VirusAlertAPI\VirusAlertAPI\obj\Debug\VirusAlertAPI.csprojAssemblyReference.cache
+D:\Projects\VirusAlertAPI\VirusAlertAPI\obj\Debug\VirusAlertAPI.csproj.CoreCompileInputs.cache
+D:\Projects\VirusAlertAPI\VirusAlertAPI\obj\Debug\VirusAlertAPI.csproj.CopyComplete
+D:\Projects\VirusAlertAPI\VirusAlertAPI\obj\Debug\VirusAlertAPI.dll
+D:\Projects\VirusAlertAPI\VirusAlertAPI\obj\Debug\VirusAlertAPI.pdb
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\App_Data\stopflue.db
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\VirusAlertAPI.dll.config
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\VirusAlertAPI.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\VirusAlertAPI.pdb
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\csc.exe
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\csc.exe.config
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\csc.rsp
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\csi.exe
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\csi.exe.config
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\csi.rsp
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.AppContext.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Console.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.IO.Compression.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Security.Claims.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.ValueTuple.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\vbc.exe
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\vbc.exe.config
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\vbc.rsp
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\VBCSCompiler.exe
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Antlr3.Runtime.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\EntityFramework.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\EntityFramework.SqlServer.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.Google.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Newtonsoft.Json.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Owin.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Data.SQLite.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Data.SQLite.EF6.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Data.SQLite.Linq.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Net.Http.Formatting.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Helpers.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Http.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Http.Owin.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Http.WebHost.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Mvc.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Optimization.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Razor.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.WebPages.Deployment.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.WebPages.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.WebPages.Razor.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\WebGrease.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\EntityFramework.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\EntityFramework.SqlServer.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Data.SQLite.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Data.SQLite.dll.config
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Newtonsoft.Json.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Net.Http.Formatting.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Helpers.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Http.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Http.WebHost.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Mvc.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Optimization.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Razor.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.WebPages.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.WebPages.Deployment.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.WebPages.Razor.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Antlr3.Runtime.pdb
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.Google.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\System.Web.Http.Owin.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\obj\Debug\VirusAlertAPI.csproj.CopyComplete
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\obj\Debug\VirusAlertAPI.dll
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\obj\Debug\VirusAlertAPI.pdb
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\obj\Debug\VirusAlertAPI.csprojAssemblyReference.cache

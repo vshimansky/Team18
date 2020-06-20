@@ -1,0 +1,131 @@
+﻿<div class="header">
+    @Html.ActionLink("О гриппе", "Index", "Главная", new { area = "" }, null)
+    @Html.ActionLink("Кто подвергается осложнению", "Index", "Главная", new { area = "" }, null)
+    @Html.ActionLink("Предотвратить грипп", "Index", "Главная", new { area = "" }, null)
+</div>
+<div class="inipage">
+    @Html.ActionLink("Зарегистрироваться", "Registration", "Главная", new { area = "" }, new { @class = "linkbutton" })
+    @Html.ActionLink("Войти", "Login", "Главная", new { area = "" }, new { @class = "linkbutton" })
+    <div class="social1">
+        <a class="sociallink" title="Скоро будет доступно"><img src="~/Content/gui/vk1.png" /></a>
+        <a class="sociallink" title="Скоро будет доступно"><img src="~/Content/gui/facebook1.png" /></a>
+        <a class="sociallink" title="Скоро будет доступно"><img src="~/Content/gui/google1.png" /></a>
+        <a class="sociallink" title="Скоро будет доступно"><img src="~/Content/gui/twitter1.png" /></a>
+    </div>
+</div>
+<div style="display:flex; padding-left:20px; padding-right: 20px;">
+    <div style="width: 32%; text-align:center; margin-right: 50px;">
+        <p class="title1">Главное сегодня</p>
+        @foreach (var item in @Model.News)
+        {
+            <div style="display:flex; align-items:center; margin-top: 40px; margin-bottom: 20px; ">
+                <a href="@item.Url">
+                    <img style="width: 150px;" src="@item.Image" />
+                </a>
+                <a href="@item.Url">
+                    <span class="newtext">@item.Text</span>
+                </a>
+            </div>
+            <a class="link" href="@item.Url">@item.Url</a>
+        }
+    </div>
+    <div style="text-align:center; width:60%">
+        <p class="title1">Распространение вируса на территории РФ</p>
+        <img style="margin-bottom: 48px; margin-top: 48px;" src="@Model.Map" />
+        <p class="title1">График динамики течения эпидемии</p>
+        <img style="margin-bottom: 48px; margin-top: 48px; width:100%" src="@Model.Diagram" />
+        <div style="display:flex; justify-content:space-around; margin-bottom: 48px; width: 100%">
+            <div>
+                <div style="width: 200px; text-align: center; background: #EFA04F; border-radius: 10px; margin-bottom: 15px; font-family: Judson;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 36px;
+                    line-height: 42px;
+                    letter-spacing: 0.1em;
+                    color: #FFFFFF;">@Model.Data.Infected</div>
+                    <p style="font-family: Helvetica;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        line-height: 33px;
+                        letter-spacing: 0.1em;
+                        color: #06876D;">Заразилось</p>
+                </div>
+                <div>
+                    <div style="width: 200px; text-align: center; background: #F39253; border-radius: 10px; margin-bottom: 15px; font-family: Judson;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 36px;
+                    line-height: 42px;
+                    letter-spacing: 0.1em;
+                    color: #FFFFFF;">@Model.Data.Health</div>
+                    <p style="font-family: Helvetica;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        line-height: 33px;
+                        letter-spacing: 0.1em;
+                        color: #06876D;">Выздоровело</p>
+                </div>
+                <div>
+                    <div style="width: 200px; text-align: center; background: #FF7272; border-radius: 10px; margin-bottom: 15px; font-family: Judson;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 36px;
+                    line-height: 42px;
+                    letter-spacing: 0.1em;
+                    color: #FFFFFF;">@Model.Data.Dead</div>
+                    <p style="font-family: Helvetica;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        line-height: 33px;
+                        letter-spacing: 0.1em;
+                        color: #06876D;">Умерло</p>
+                </div>
+            </div>
+            <p class="title1">Ограничения</p>
+            <div>
+                @foreach (var item in @Model.Limits)
+                {
+                    <div style="display:flex; align-items:center; margin-top: 48px;">
+                        <img style="width: auto; height: 96px; " src="@item.Icon" />
+                        <span style="font-family: Helvetica;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 24px;
+                            line-height: 33px;
+                            letter-spacing: 0.1em;
+                            color: #3E4B60;">@item.Text</span>
+                        </div>
+                    }
+            </div>
+        </div>
+    </div>
+<div style="display:block; margin:auto; width:80%; text-align: center; margin-top:48px;">
+    <p class="txt1">Получать свежую информацию об эпидемии на свою электронную почту</p>
+    <table style="margin-bottom: 48px; margin-top: 48px;" cellspacing="40px">
+        <tr>
+            <td>
+                <input type="text" class="textbox" value="@Model.Email" placeholder="Адрес электронной почты"/>
+            </td>
+            <td>
+                @Html.ActionLink("Получить", "Index", "Главная", new { area = "" }, new { @class = "linkbutton" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="txt1">Если у вас пока нет электронной почты, нажмите, чтобы создать ее не уходя с сайта   </p>
+            </td>
+            <td>
+                @Html.ActionLink("Создать почту", "Index", "Главная", new { area = "" }, new { @class = "linkbutton" })
+            </td>
+        </tr>
+    </table>
+
+    <p class="title1">Что нужно знать о вакцинации</p>
+</div>    
+    
+    <div style="display:flex; justify-content:center; ">
+        <iframe width="784" align="middle" height="441" src="https://www.youtube.com/embed/FVKCxw4v2bI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>

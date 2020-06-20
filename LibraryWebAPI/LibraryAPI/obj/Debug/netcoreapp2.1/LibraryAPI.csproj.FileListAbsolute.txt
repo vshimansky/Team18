@@ -1,0 +1,35 @@
+D:\Projects\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Projects\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Projects\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Projects\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.deps.json
+D:\Projects\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.runtimeconfig.json
+D:\Projects\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.runtimeconfig.dev.json
+D:\Projects\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.dll
+D:\Projects\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.pdb
+D:\Projects\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.csprojAssemblyReference.cache
+D:\Projects\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.RazorAssemblyInfo.cache
+D:\Projects\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.RazorAssemblyInfo.cs
+D:\Projects\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.AssemblyInfoInputs.cache
+D:\Projects\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.AssemblyInfo.cs
+D:\Projects\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.RazorTargetAssemblyInfo.cache
+D:\Projects\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.dll
+D:\Projects\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.pdb
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\appsettings.json
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.deps.json
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.runtimeconfig.json
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.runtimeconfig.dev.json
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.dll
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.pdb
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.csprojAssemblyReference.cache
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.RazorAssemblyInfo.cache
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.RazorAssemblyInfo.cs
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.AssemblyInfoInputs.cache
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.AssemblyInfo.cs
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.RazorTargetAssemblyInfo.cache
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.dll
+d:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.pdb
+D:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\UniversalAcceptanceLibrary.dll
+D:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\UniversalAcceptanceLibrary.pdb
+D:\Git\StopFlue\MailLibrary\Web API\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.csproj.CopyComplete

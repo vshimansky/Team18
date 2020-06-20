@@ -1,0 +1,27 @@
+﻿<div class="header">
+    @Html.ActionLink("О гриппе", "Index", "Home", new { area = "", controller = "Home" }, null)
+    @Html.ActionLink("Кто подвергается осложнению", "Index", "Home", new { area = "", controller = "Home" }, null)
+    @Html.ActionLink("Предотвратить грипп", "Index", "Home", new { area = "", controller = "Home" }, null)
+</div>
+
+<div class="loginpage">
+    <div class="loginH1">Регистрация</div>
+    <div>
+        <input type="text" class="logininput" id="name" value="@Model.Name" placeholder="ФИО *" />
+    </div>
+    <div>
+        <input type="text" class="logininput" id="oms" value="@Model.Oms" placeholder="Номер полиса ОМС" />
+    </div>
+    <div>
+        <input type="text" class="logininput" id="email" value="@Model.Email" placeholder="Адрес электронной почты * " />
+    </div>
+    <div>
+        <div>Если у вас пока нет электронной почты, нажмите, чтобы создать ее не уходя с сайта</div>
+        @Html.ActionLink("Создать почту", "Index", "Home", new { area = "" }, new { @class = "linkbutton" })
+    </div>
+    <div>
+        <input type="password" class="logininput" id="pass" value="@Model.Password" placeholder="Пароль" />
+    </div>
+    <a class="linkbutton" onclick="applogin(document.getElementById('email').value, document.getElementById('pass').value, '@Model.Uri')">Войти</a>
+    @Html.ActionLink("Отмена", "Index", "Home", new { area = "" }, new { @class = "linkbutton" })
+</div>

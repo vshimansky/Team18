@@ -1,0 +1,10 @@
+﻿<div class="header">
+    @Html.ActionLink("О гриппе", "Index", "Главная", new { area = "", controller = "Главная" }, null)
+    @Html.ActionLink("Кто подвергается осложнению", "Главная", "Home", new { area = "", controller = "Главная" }, null)
+    @Html.ActionLink("Предотвратить грипп", "Index", "Главная", new { area = "", controller = "Главная" }, null)
+</div>
+<div class="head2">
+    <div style="margin-bottom: 20px;">@Model.Name</div>
+    <div  style="margin-bottom: 20px;">@Model.Email</div>
+    <div style="margin-bottom: 20px; font-weight:normal;">@Model.Oms</div>
+</div>

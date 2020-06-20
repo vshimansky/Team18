@@ -1,0 +1,8 @@
+D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\bin\Debug\netcoreapp2.1\UniversalAcceptanceLibrary.deps.json
+D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\bin\Debug\netcoreapp2.1\UniversalAcceptanceLibrary.dll
+D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\bin\Debug\netcoreapp2.1\UniversalAcceptanceLibrary.pdb
+D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\obj\Debug\netcoreapp2.1\UniversalAcceptanceLibrary.AssemblyInfoInputs.cache
+D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\obj\Debug\netcoreapp2.1\UniversalAcceptanceLibrary.AssemblyInfo.cs
+D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\obj\Debug\netcoreapp2.1\UniversalAcceptanceLibrary.dll
+D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\obj\Debug\netcoreapp2.1\UniversalAcceptanceLibrary.pdb
+D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\obj\Debug\netcoreapp2.1\UniversalAcceptanceLibrary.csprojAssemblyReference.cache

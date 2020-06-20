@@ -1,0 +1,18 @@
+﻿<div class="header">
+    @Html.ActionLink("О гриппе", "Index", "Главная", new { area = "" }, null)
+    @Html.ActionLink("Кто подвергается осложнению", "Index", "Главная", new { area = "" }, null)
+    @Html.ActionLink("Предотвратить грипп", "Index", "Главная", new { area = "" }, null)
+</div>
+<div class="inipage">
+    @Html.ActionLink("Зарегистрироваться", "Registration", "Главная", new { area = "" }, new { @class = "linkbutton" })
+    @Html.ActionLink("Войти", "Login", "Главная", new { area = "" }, new { @class = "linkbutton" })
+    <div class="social1">
+        <a class="sociallink" title="Скоро будет доступно"><img src="~/Content/gui/vk1.png" /></a>
+        <a class="sociallink" title="Скоро будет доступно"><img src="~/Content/gui/facebook1.png" /></a>
+        <a class="sociallink" title="Скоро будет доступно"><img src="~/Content/gui/google1.png" /></a>
+        <a class="sociallink" title="Скоро будет доступно"><img src="~/Content/gui/twitter1.png" /></a>
+    </div>
+</div>
+<h2>@Model.Text</h2>
+<img src="@Model.Image"/>
+<h5>@Model.FullText</h5>
