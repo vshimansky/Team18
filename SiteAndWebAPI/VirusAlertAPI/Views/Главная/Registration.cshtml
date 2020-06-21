@@ -28,6 +28,6 @@
     <div>
         <input type="password" class="logininput" id="pass" value="@Model.Password2" placeholder="Продублируйте пароль" />
     </div>
-    @Html.ActionLink("Зарегистрироваться", "DoRegistration", "Главная", new { name = Name, oms ="12312", email = @Model.Email, pass = @Model.Password, pass2 = @Model.Password2 }, new { @class = "linkbutton" })
+    @Html.ActionLink("Зарегистрироваться", "DoRegistration", "Главная", new { name = @Model.Name, oms = document.getElementById('oms').value, email = @Model.Email, pass = @Model.Password, pass2 = @Model.Password2 }, new { @class = "linkbutton" })
     @Html.ActionLink("Отмена", "Index", "Главная", new { area = "" }, new { @class = "linkbutton" })
 </div>

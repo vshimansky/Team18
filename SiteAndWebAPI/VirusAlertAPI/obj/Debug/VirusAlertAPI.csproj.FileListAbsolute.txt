@@ -228,4 +228,5 @@ D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\bin\Microsoft.CodeDom.Providers.D
 D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\obj\Debug\VirusAlertAPI.csproj.CopyComplete
 D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\obj\Debug\VirusAlertAPI.dll
 D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\obj\Debug\VirusAlertAPI.pdb
+D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\obj\Debug\VirusAlertAPI.csproj.CoreCompileInputs.cache
 D:\Git\StopFlue\StopFlue\Web API\VirusAlertAPI\obj\Debug\VirusAlertAPI.csprojAssemblyReference.cache
