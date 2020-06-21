@@ -1,16 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using LibraryAPI.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Net.Mail;
+using System.Threading.Tasks;
 using UniversalAcceptanceLibrary;
+using UniversalAcceptanceLibrary.Exceptions;
 
 namespace LibraryAPI.Controllers
 {
-    public struct ApiResult
-    {
-        public bool Result { get; set; }
-        public string Output { get; set; }
-    }
-
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class EmailController : ControllerBase
@@ -25,48 +22,41 @@ namespace LibraryAPI.Controllers
         }
 
         [HttpGet]
-        [HttpPost]
-        public ApiResult Validate(string email)
+        public async Task<IActionResult> Validate([FromServices] IEmailValidator emailValidator, string email)
         {
-            var emailValidator = new EmailValidator();
-            var result = emailValidator.IsValidEmail(email);
+            var result = await emailValidator.IsValidEmailAsync(email);
 
             if (result)
             {
-                return new ApiResult() { Result = true, Output = "Почтовый адрес " + email  + " корректен" };
+                return Ok(new SuccessResponse { Message = "Email is valid." });
             }
-            else
-            {
-                return new ApiResult()
-                {
-                    Result = false,
-                    Output = "Почтовый адрес " + email + " не  корректен"
-                };
-            }
+
+            throw new InvalidEmailException("The specified string is not in the form required for an e-mail address.");
         }
 
         [HttpGet]
-        [HttpPost]
-        public ActionResult<string> Normalize(string email)
+        public ActionResult<string> Normalize([FromServices] IEmailFormatter emailFormatter, string email)
         {
-            var emailFormatter = new EmailFormatter();
-            try
-            {
-                var result = emailFormatter.NormalizeEmail(email);
-                return result;
-            } 
-            catch (FormatException)
-            {
-                return BadRequest();
-            }
+            var result = emailFormatter.NormalizeEmail(email);
+            return result;
         }
 
-        /*
         [HttpPost]
-        public string Send(string from, string to, string subject, string body, bool isHtml)
+        public IActionResult Send([FromServices] IEmailSender emailSender, SendEmailInputModel inputModel)
         {
-            return "OK";
+            MailAddress fromAddress = new MailAddress(inputModel.From);
+            MailAddress toAddress = new MailAddress(inputModel.To);
+
+            MailMessage message = new MailMessage(fromAddress, toAddress)
+            {
+                Subject = inputModel.Subject,
+                Body = inputModel.Body,
+                IsBodyHtml = inputModel.IsHtml
+            };
+
+            emailSender.SendEmail(message);
+
+            return Ok(new SuccessResponse { Message = "Email successfully sent." });
         }
-        */
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace UniversalAcceptanceLibrary
 {
@@ -10,6 +11,6 @@ namespace UniversalAcceptanceLibrary
     /// </summary>
     public interface IEmailValidator
     {
-        bool IsValidEmail(string email);
+        Task<bool> IsValidEmailAsync(string email);
     }
 }

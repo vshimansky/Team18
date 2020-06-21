@@ -5,3 +5,4 @@ D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\obj\Release\netco
 D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\obj\Release\netcoreapp2.1\UniversalAcceptanceLibrary.AssemblyInfo.cs
 D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\obj\Release\netcoreapp2.1\UniversalAcceptanceLibrary.dll
 D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\obj\Release\netcoreapp2.1\UniversalAcceptanceLibrary.pdb
+D:\Git\StopFlue\MailLibrary\Library\UniversalAcceptanceLibrary\obj\Release\netcoreapp2.1\UniversalAcceptanceLibrary.csprojAssemblyReference.cache

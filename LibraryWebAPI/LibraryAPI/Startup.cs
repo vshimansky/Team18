@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using LibraryAPI.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using System;
+using System.Net;
+using System.Net.Mail;
+using UniversalAcceptanceLibrary;
 
 namespace LibraryAPI
 {
@@ -26,6 +24,26 @@ namespace LibraryAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddSingleton<IEmailValidator, EmailValidator>();
+            services.AddSingleton<IEmailFormatter, EmailFormatter>();
+            services.AddTransient<IEmailSender, EmailSender>();
+            services.AddSingleton<ITLDChecker, TLDChecker>();
+            services.AddSingleton<IUrlFormatter, UrlFormatter>();
+
+            services.AddTransient(sp => {
+                var smtpLogin = ""; // Environment.GetEnvironmentVariable("SMTP_LOGIN");
+                var smtpPassword = ""; // Environment.GetEnvironmentVariable("SMTP_PASSWORD");
+
+                SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587)
+                {
+                    UseDefaultCredentials = false,
+                    Credentials = new NetworkCredential(smtpLogin, smtpPassword),
+                    EnableSsl = true
+                };
+
+                return smtpClient;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +59,7 @@ namespace LibraryAPI
             }
 
             app.UseHttpsRedirection();
+            app.UseMiddleware(typeof(ErrorHandlingMiddleware));
             app.UseMvc();
         }
     }

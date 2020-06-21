@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace UniversalAcceptanceLibrary
 {
-    public class TLDChecker
+    public class TLDChecker: ITLDChecker
     {
         private const string TLD_CHECK_URL = "https://data.iana.org/TLD/tlds-alpha-by-domain.txt";
 

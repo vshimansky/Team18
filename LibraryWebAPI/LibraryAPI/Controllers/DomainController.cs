@@ -21,48 +21,26 @@ namespace LibraryAPI.Controllers
         }
 
         [HttpGet]
-        [HttpPost]
-        public ActionResult<string> UnicodeToPunycode(string domain)
+        public ActionResult<string> UnicodeToPunycode([FromServices] IEmailFormatter emailFormatter, string domain)
         {
-            var emailFormatter = new EmailFormatter();
-
-            try
-            {
-                var result = emailFormatter.UnicodeToPunycode(domain);
-                return result;
-            }
-            catch (ArgumentException)
-            {
-                return BadRequest();
-            }
+            var result = emailFormatter.UnicodeToPunycode(domain);
+            return result;
         }
 
         [HttpGet]
-        [HttpPost]
-        public ActionResult<string> PunycodeToUnicode(string domain)
+        public ActionResult<string> PunycodeToUnicode([FromServices] IEmailFormatter emailFormatter, string domain)
         {
-            var emailFormatter = new EmailFormatter();
-
-            try
-            {
-                var result = emailFormatter.PunycodeToUnicode(domain);
-                return result;
-            }
-            catch (ArgumentException)
-            {
-                return BadRequest();
-            }
+            var result = emailFormatter.PunycodeToUnicode(domain);
+            return result;
         }
 
         [HttpGet]
-        [HttpPost]
-        public async Task<ActionResult<string>> CheckTld(string tld)
+        public async Task<ActionResult<string>> CheckTld([FromServices] ITLDChecker tldChecker, string tld)
         {
-            var tldChecker = new TLDChecker();
             var result = await tldChecker.IsTLDExistsAsync(tld);
 
             if (result)
-                return Ok();
+                return Ok(new SuccessResponse { Message = "TLD exists." });
 
             return BadRequest();
         }

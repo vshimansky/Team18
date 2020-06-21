@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using UniversalAcceptanceLibrary;
 
 namespace LibraryAPI.Controllers
 {
@@ -7,15 +8,10 @@ namespace LibraryAPI.Controllers
     public class UrlController : ControllerBase
     {
         [HttpGet]
-        public string Normalize(string url)
+        public string Normalize([FromServices] IUrlFormatter urlFormatter, string url)
         {
-            return "";
-        }
-
-        [HttpPost]
-        public string NormalizeP(string url)
-        {
-            return "";
+            var result = urlFormatter.NormalizeUrl(url);
+            return result;
         }
     }
 }
